@@ -41,6 +41,9 @@ android {
 }
 
 dependencies {
+    implementation project(":bt_data_db")
+    implementation project(":nbt_data_remote")
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
